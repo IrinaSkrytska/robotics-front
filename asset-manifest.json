@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/robotics/static/css/main.f287fb88.css",
+    "main.js": "/robotics/static/js/main.00e8fbf3.js",
+    "static/media/man-in-vr-glasses.png": "/robotics/static/media/man-in-vr-glasses.884a642fe772ee9e0bd4.png",
+    "static/media/child_in_vr_glasses.jpg": "/robotics/static/media/child_in_vr_glasses.3b9bb8844d5489414a2b.jpg",
+    "static/media/marketplacePeople.jpg": "/robotics/static/media/marketplacePeople.67a0147eec187c15b489.jpg",
+    "static/media/girl_with_playstation.jpg": "/robotics/static/media/girl_with_playstation.adef45aaafe76bc95499.jpg",
+    "static/media/gamification.svg": "/robotics/static/media/gamification.ea949adbf1ea9e20c5da4cfec0bf6350.svg",
+    "static/media/game.svg": "/robotics/static/media/game.c1320ba14ea7c54ac365a50c20291772.svg",
+    "static/media/study.svg": "/robotics/static/media/study.32f1c354340cfc17f52d87a39845417e.svg",
+    "static/media/chat-bot.svg": "/robotics/static/media/chat-bot.ea5b10e298cbdf2155844165be32fde8.svg",
+    "static/media/marketplace.svg": "/robotics/static/media/marketplace.2d55d41f1b311d213f64c954f3258272.svg",
+    "static/media/INpowerLogo.svg": "/robotics/static/media/INpowerLogo.032bbf424f076e3040e097c205a66346.svg",
+    "static/media/computer.svg": "/robotics/static/media/computer.92a11e412db65864ef33ccefcf18e485.svg",
+    "index.html": "/robotics/index.html",
+    "main.f287fb88.css.map": "/robotics/static/css/main.f287fb88.css.map",
+    "main.00e8fbf3.js.map": "/robotics/static/js/main.00e8fbf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f287fb88.css",
+    "static/js/main.00e8fbf3.js"
+  ]
+}
