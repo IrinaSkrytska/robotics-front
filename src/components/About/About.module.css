@@ -81,12 +81,7 @@ border-radius: 10px;
     padding: 16px 48px;
   position: relative;
   border: none;
-    /* border: 3px solid;
- border-image-slice: 1;
-    border-image-source:linear-gradient(#6C20D2,
-        #57CBF0,
-        #9747FF);
-        border-radius: 10%; */
+  
     color: #FFF;
         font-size: 20px;
         font-style: normal;
