@@ -1,0 +1,110 @@
+.about_section{
+  
+ padding: 0 62px;
+}
+.about_us_thumb{margin-bottom: 36px;
+
+}
+.about_us_text{
+    text-align: center;
+    margin: 0;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+  padding-bottom: 48px;
+}
+
+.about_us_description{
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+ 
+}
+.about_image{
+    border-radius: 20px;
+  margin-right: 36px;
+}
+.about_image_right{
+    margin-left: 36px;
+   border-radius: 20px;
+}
+.study_thumb{
+    display: flex;
+  margin-bottom: 78px;
+}
+.study_title_thumb{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.study_title{
+   
+    margin: 0;
+    margin-left: 35px;
+    color: #FFF;;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px
+
+}
+.study_description{
+    color: #FFF;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px
+
+}
+.about_try_btn{
+    margin-top: 77px;
+    border: none;
+    margin-right: 30px;
+    padding: 16px 48px;
+border-radius: 10px;
+    background: linear-gradient(96deg, #6C20D2 -12.07%, #57CBF0 103.99%, #9747FF 104.01%);
+    color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+}
+
+.about_details_btn{
+    background: transparent;
+    padding: 16px 48px;
+  position: relative;
+  border: none;
+    /* border: 3px solid;
+ border-image-slice: 1;
+    border-image-source:linear-gradient(#6C20D2,
+        #57CBF0,
+        #9747FF);
+        border-radius: 10%; */
+    color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24p
+}
+.about_details_btn::before{content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 10px;
+    padding: 3px;
+    background: linear-gradient(#6C20D2,
+            #57CBF0,
+            #9747FF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    
+}
