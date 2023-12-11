@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/robotics/static/css/main.f287fb88.css",
-    "main.js": "/robotics/static/js/main.00e8fbf3.js",
+    "main.css": "/robotics/static/css/main.a7000d2f.css",
+    "main.js": "/robotics/static/js/main.8a1fb842.js",
     "static/media/man-in-vr-glasses.png": "/robotics/static/media/man-in-vr-glasses.884a642fe772ee9e0bd4.png",
     "static/media/child_in_vr_glasses.jpg": "/robotics/static/media/child_in_vr_glasses.3b9bb8844d5489414a2b.jpg",
     "static/media/marketplacePeople.jpg": "/robotics/static/media/marketplacePeople.67a0147eec187c15b489.jpg",
@@ -14,11 +14,11 @@
     "static/media/INpowerLogo.svg": "/robotics/static/media/INpowerLogo.032bbf424f076e3040e097c205a66346.svg",
     "static/media/computer.svg": "/robotics/static/media/computer.92a11e412db65864ef33ccefcf18e485.svg",
     "index.html": "/robotics/index.html",
-    "main.f287fb88.css.map": "/robotics/static/css/main.f287fb88.css.map",
-    "main.00e8fbf3.js.map": "/robotics/static/js/main.00e8fbf3.js.map"
+    "main.a7000d2f.css.map": "/robotics/static/css/main.a7000d2f.css.map",
+    "main.8a1fb842.js.map": "/robotics/static/js/main.8a1fb842.js.map"
   },
   "entrypoints": [
-    "static/css/main.f287fb88.css",
-    "static/js/main.00e8fbf3.js"
+    "static/css/main.a7000d2f.css",
+    "static/js/main.8a1fb842.js"
   ]
 }
