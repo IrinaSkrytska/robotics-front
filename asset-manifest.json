@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/robotics-front/static/css/main.a7000d2f.css",
-    "main.js": "/robotics-front/static/js/main.61813ee8.js",
+    "main.js": "/robotics-front/static/js/main.9f584f49.js",
     "static/media/man-in-vr-glasses.png": "/robotics-front/static/media/man-in-vr-glasses.884a642fe772ee9e0bd4.png",
     "static/media/child_in_vr_glasses.jpg": "/robotics-front/static/media/child_in_vr_glasses.3b9bb8844d5489414a2b.jpg",
     "static/media/marketplacePeople.jpg": "/robotics-front/static/media/marketplacePeople.67a0147eec187c15b489.jpg",
@@ -15,10 +15,10 @@
     "static/media/computer.svg": "/robotics-front/static/media/computer.92a11e412db65864ef33ccefcf18e485.svg",
     "index.html": "/robotics-front/index.html",
     "main.a7000d2f.css.map": "/robotics-front/static/css/main.a7000d2f.css.map",
-    "main.61813ee8.js.map": "/robotics-front/static/js/main.61813ee8.js.map"
+    "main.9f584f49.js.map": "/robotics-front/static/js/main.9f584f49.js.map"
   },
   "entrypoints": [
     "static/css/main.a7000d2f.css",
-    "static/js/main.61813ee8.js"
+    "static/js/main.9f584f49.js"
   ]
 }
