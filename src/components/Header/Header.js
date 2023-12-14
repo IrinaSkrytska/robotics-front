@@ -25,6 +25,7 @@ const Header = () => {
             src={InPowerLogo}
           />
           <img
+            alt="mobile menu"
             className={mobileMenuIconOpen ? css.mobileMenuIcon : css.hidden}
             src={mobileMenuIcon}
             onClick={onHandleClickButton}

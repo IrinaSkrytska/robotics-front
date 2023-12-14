@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import AppBar from "./AppBar";
 import Home from "./Home";
 import About from "./About";
-import Container from "./Container";
+
 // import NotFoundPage from "./NotFoundPage";
 
 export const App = () => {
