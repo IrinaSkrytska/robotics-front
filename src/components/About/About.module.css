@@ -67,7 +67,7 @@
   .about_image {
     display: block;
     border-radius: 20px;
-
+    width: 360px;
     margin: 0 auto;
     margin-top: 68px;
     object-fit: cover;
@@ -76,7 +76,7 @@
 @media screen and (min-width: 1280px) {
   .about_image {
     border-radius: 20px;
-    margin-top: 90px;
+
     margin-right: 36px;
     object-fit: cover;
   }
@@ -186,16 +186,16 @@
     line-height: 60px;
   }
 }
-@media screen and (max-width: 787px) {
-  .study_description {
-    color: #fff;
 
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 32px;
-  }
+.study_description {
+  color: #fff;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
 }
+
 @media screen and (max-width: 767px) {
   .about_try_btn {
     border: none;
