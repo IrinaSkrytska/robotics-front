@@ -1,0 +1,90 @@
+.reviews_thumb {
+  position: relative;
+}
+.reviews_title {
+  color: #fff;
+  margin-bottom: 62px;
+
+  text-align: center;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.reviews_list {
+  display: flex;
+  justify-content: center;
+}
+
+.review_icon_left {
+  position: absolute;
+  top: 4%;
+  right: 2%;
+}
+.review_background_left_thumb {
+  position: relative;
+  margin-right: 60px;
+}
+.review_background_left {
+  background-repeat: no-repeat;
+  /* position: relative; */
+}
+.review_person_thumb_left {
+  position: absolute;
+  text-align: center;
+  top: 26%;
+  left: 16%;
+}
+.review_title_side {
+  margin: 0;
+  margin-bottom: 4px;
+  color: #cfcfcf;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.review_job {
+  margin: 0;
+  color: #cfcfcf;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.review_text_side {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 14px;
+  color: #cfcfcf;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.person_left_icon {
+  position: absolute;
+  left: 40%;
+}
+.review_background_middle_thumb {
+  position: relative;
+  margin-right: 20px;
+}
+.review_background_middle {
+  position: relative;
+}
+.review_icon_middle {
+  position: absolute;
+  top: 0%;
+  right: 4%;
+}
+
+.review_background_right_thumb {
+  position: relative;
+}
+.review_icon_right {
+  position: absolute;
+  top: 4%;
+  right: 10%;
+}

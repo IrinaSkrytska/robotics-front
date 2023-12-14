@@ -1,0 +1,46 @@
+.contacts_thumb {
+  padding-top: 63px;
+  margin-left: 63px;
+  display: flex;
+}
+.contacts_title {
+  margin-bottom: 16px;
+  margin-top: 0;
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+.contacts_sub_title {
+  padding-bottom: 174px;
+  margin-top: 0;
+  margin-right: 206px;
+  color: #fff;
+
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+.contacts_owner {
+  margin-top: 10px;
+  margin-bottom: 23px;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contacts_owner_role {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.contacts_icons_thumb {
+  display: flex;
+}
+.contacts_telegram_icon {
+  margin-right: 36px;
+}

@@ -4,6 +4,8 @@ import studyIcon from "../icons/study.svg";
 import gamificationIcon from "../icons/gamification.svg";
 import marketplaceIcon from "../icons/marketplace.svg";
 import About from "components/About";
+import Reviews from "components/Reviews";
+import Contacts from "components/Contacts";
 
 const Home = () => {
   return (
@@ -31,19 +33,27 @@ const Home = () => {
           <ul className={css.hero_nav_list}>
             <li>
               <div>
-                <img alt="studies" src={studyIcon} />
+                <img className={css.home_image} alt="studies" src={studyIcon} />
                 <p className={css.hero_nav_title}>Навчання</p>
               </div>
             </li>
             <li>
               <div>
-                <img alt="gamification" src={gamificationIcon} />
+                <img
+                  className={css.home_image}
+                  alt="gamification"
+                  src={gamificationIcon}
+                />
                 <p className={css.hero_nav_title}>Гейміфікація</p>
               </div>
             </li>
             <li>
               <div>
-                <img alt="marketplace" src={marketplaceIcon} />
+                <img
+                  className={css.home_image}
+                  alt="marketplace"
+                  src={marketplaceIcon}
+                />
                 <p className={css.hero_nav_title}>Маркетплейс</p>
               </div>
             </li>
@@ -51,6 +61,8 @@ const Home = () => {
         </div>
       </section>
       <About />
+      <Reviews />
+      <Contacts />
     </>
   );
 };

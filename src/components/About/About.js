@@ -5,11 +5,13 @@ import gameIcon from "../icons/game.svg";
 import girlWithPlaystation from "../images/girl_with_playstation.jpg";
 import marketplacePeople from "../images/marketplacePeople.jpg";
 import computerIcon from "../icons/computer.svg";
+import tutorial from "../videos/tutorial.mp4";
+
+// import ReactPlayer from "react-player";
 
 const About = () => {
   return (
     <>
-      {" "}
       <section className={css.about_section}>
         <div className={css.about_us_thumb}>
           <h2 className={css.about_us_text}>Про нас</h2>
@@ -30,11 +32,20 @@ const About = () => {
           </p>
         </div>
         <div className={css.study_thumb}>
-          <img
+          {/* <img
             className={css.about_image}
-            src={childInGlassesIcon}
+            src={tutorial}
             alt="child in vr glasses"
-          />
+          /> */}
+          <video
+            className={css.about_image}
+            controls
+            poster={childInGlassesIcon}
+            src={tutorial}
+            width="340px"
+            height="280px"
+            playicon={<button>Play</button>}
+          ></video>
           <div>
             <div className={css.study_title_thumb}>
               <img src={chatBotIcon} alt="chat-bot" />
