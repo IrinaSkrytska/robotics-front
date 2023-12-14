@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/robotics-front/static/css/main.63324eb2.css",
-    "main.js": "/robotics-front/static/js/main.78166b7b.js",
+    "main.css": "/robotics-front/static/css/main.a46e49ee.css",
+    "main.js": "/robotics-front/static/js/main.0e3a59b4.js",
     "static/media/tutorial.mp4": "/robotics-front/static/media/tutorial.f244542bb343b6eb5fc0.mp4",
     "static/media/man-in-vr-glasses.png": "/robotics-front/static/media/man-in-vr-glasses.884a642fe772ee9e0bd4.png",
     "static/media/child_in_vr_glasses.jpg": "/robotics-front/static/media/child_in_vr_glasses.3b9bb8844d5489414a2b.jpg",
     "static/media/marketplacePeople.jpg": "/robotics-front/static/media/marketplacePeople.67a0147eec187c15b489.jpg",
     "static/media/girl_with_playstation.jpg": "/robotics-front/static/media/girl_with_playstation.adef45aaafe76bc95499.jpg",
-    "static/media/person-left-icon.svg": "/robotics-front/static/media/person-left-icon.67c2ba2b2dd033c89222aa48fef3db57.svg",
     "static/media/gamification.svg": "/robotics-front/static/media/gamification.bd53d3919dcbd2084198b83199b791a7.svg",
     "static/media/game.svg": "/robotics-front/static/media/game.83a44a26f12afcca3619ceb2b7514722.svg",
     "static/media/study.svg": "/robotics-front/static/media/study.e4566d14a11b91cd301adee555ea4d19.svg",
@@ -15,22 +14,15 @@
     "static/media/marketplace.svg": "/robotics-front/static/media/marketplace.8bd97a536892e0e57dec1dc59397e7e1.svg",
     "static/media/INpowerLogo.svg": "/robotics-front/static/media/INpowerLogo.2f1509376ddb91f1aefcc72fce068698.svg",
     "static/media/computer.svg": "/robotics-front/static/media/computer.e9b9dd4603b36d70e6dae283dae989d6.svg",
-    "static/media/quotes.svg": "/robotics-front/static/media/quotes.e346b5a99131fc3e20664d212c942729.svg",
-    "static/media/leftReviewBg.svg": "/robotics-front/static/media/leftReviewBg.1600225f93725d0bb21951752a8a1448.svg",
-    "static/media/rightReviewBg.svg": "/robotics-front/static/media/rightReviewBg.06713c8670b79489889573f0739cfe5c.svg",
     "index.html": "/robotics-front/index.html",
     "static/media/Mail.svg": "/robotics-front/static/media/Mail.8f40ddfc22434a4a8358492580ff21ed.svg",
     "static/media/Telegram.svg": "/robotics-front/static/media/Telegram.6b18438af397f2b89491e01080e95de8.svg",
-    "static/media/leftReview.svg": "/robotics-front/static/media/leftReview.9104e12b98f5c0aba076773f5707e813.svg",
-    "static/media/rightReview.svg": "/robotics-front/static/media/rightReview.6b56c309b475c99461ba4c2a07e06032.svg",
-    "static/media/middle_review_icon.svg": "/robotics-front/static/media/middle_review_icon.ccf31b28bdf87e398eb696f415b2c5a9.svg",
     "static/media/mobileMenuIcon.svg": "/robotics-front/static/media/mobileMenuIcon.551248a6e69cb630c18934d20e703b5e.svg",
-    "static/media/bg_middle_review.svg": "/robotics-front/static/media/bg_middle_review.91827ed1ce91b57f64cbb5488527fca8.svg",
-    "main.63324eb2.css.map": "/robotics-front/static/css/main.63324eb2.css.map",
-    "main.78166b7b.js.map": "/robotics-front/static/js/main.78166b7b.js.map"
+    "main.a46e49ee.css.map": "/robotics-front/static/css/main.a46e49ee.css.map",
+    "main.0e3a59b4.js.map": "/robotics-front/static/js/main.0e3a59b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.63324eb2.css",
-    "static/js/main.78166b7b.js"
+    "static/css/main.a46e49ee.css",
+    "static/js/main.0e3a59b4.js"
   ]
 }
