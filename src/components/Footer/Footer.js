@@ -14,7 +14,7 @@ const Footer = () => {
               src={InPowerLogo}
             />
           </div>
-          <div>
+          <div className={css.footer_links_thumb}>
             <NavLink to="/partnership" className={css.footer_link}>
               Партнерство
             </NavLink>

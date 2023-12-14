@@ -44,7 +44,6 @@ const About = () => {
             src={tutorial}
             width="340px"
             height="280px"
-            playicon={<button>Play</button>}
           ></video>
           <div>
             <div className={css.study_title_thumb}>
@@ -70,6 +69,11 @@ const About = () => {
           </div>
         </div>
         <div className={css.study_thumb}>
+          <img
+            className={css.about_image_mobile}
+            src={girlWithPlaystation}
+            alt="girl with playstation"
+          />
           <div>
             <div className={css.study_title_thumb}>
               <img src={gameIcon} alt="game-icon" />
@@ -98,7 +102,7 @@ const About = () => {
         </div>
         <div className={css.study_thumb}>
           <img
-            className={css.about_image}
+            className={css.about_image_last}
             src={marketplacePeople}
             alt="people in marketplace"
           />

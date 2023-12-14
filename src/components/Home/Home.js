@@ -4,7 +4,7 @@ import studyIcon from "../icons/study.svg";
 import gamificationIcon from "../icons/gamification.svg";
 import marketplaceIcon from "../icons/marketplace.svg";
 import About from "components/About";
-import Reviews from "components/Reviews";
+// import Reviews from "components/Reviews";
 import Contacts from "components/Contacts";
 
 const Home = () => {
@@ -61,7 +61,7 @@ const Home = () => {
         </div>
       </section>
       <About />
-      <Reviews />
+      {/* <Reviews /> */}
       <Contacts />
     </>
   );

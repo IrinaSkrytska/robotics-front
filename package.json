@@ -2,11 +2,12 @@
   "name": "robotics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://robotics-front.vercel.app/",
+  "homepage": "https://irinaskrytska.github.io/robotics-front",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "memfs": "^4.6.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.20.1",
@@ -20,7 +21,7 @@
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
