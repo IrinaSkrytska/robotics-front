@@ -102,7 +102,7 @@ const About = () => {
         </div>
         <div className={css.study_thumb}>
           <img
-            className={css.about_image_last}
+            className={css.about_image}
             src={marketplacePeople}
             alt="people in marketplace"
           />

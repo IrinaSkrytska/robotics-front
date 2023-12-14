@@ -1,21 +1,37 @@
 @import-normalize; /* bring in normalize.css styles */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-body {
-  background: var(
-    --bg-gradient,
-    linear-gradient(-98deg, #0b132a 11.7%, #080e97 96.96%)
-  );
-  margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@media screen and (max-width: 767px) {
+  body {
+    background: var(
+      --bg-gradient,
+      linear-gradient(98deg, #0b132a 11.7%, #080e97 96.96%)
+    );
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+@media screen and (min-width: 1280px) {
+  body {
+    background: var(
+      --bg-gradient,
+      linear-gradient(-98deg, #0b132a 11.7%, #080e97 96.96%)
+    );
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 }

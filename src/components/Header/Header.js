@@ -30,13 +30,17 @@ const Header = () => {
             src={mobileMenuIcon}
             onClick={onHandleClickButton}
           />
-          <div className={css.mobile_menu_thumb}>
-            <Navigation />
-            <div className={css.locale_thumb}>
-              <p className={css.locale}>UA</p>
-              <button className={css.header_register_btn}>Реєстрація</button>
+          {mobileMenuIconOpen ? (
+            <div className={css.mobile_menu_thumb}>
+              <Navigation />
+              <div className={css.locale_thumb}>
+                <p className={css.locale}>UA</p>
+                <button className={css.header_register_btn}>Реєстрація</button>
+              </div>
             </div>
-          </div>
+          ) : (
+            ""
+          )}
           <Navigation />
           <div className={css.locale_thumb}>
             <p className={css.locale}>UA</p>
