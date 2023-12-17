@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/robotics-front/static/css/main.52d5997d.css",
-    "main.js": "/robotics-front/static/js/main.70da1a80.js",
+    "main.css": "/robotics-front/static/css/main.9dc95669.css",
+    "main.js": "/robotics-front/static/js/main.3a906d15.js",
     "static/media/tutorial.mp4": "/robotics-front/static/media/tutorial.f244542bb343b6eb5fc0.mp4",
     "static/media/man-in-vr-glasses.png": "/robotics-front/static/media/man-in-vr-glasses.884a642fe772ee9e0bd4.png",
     "static/media/child_in_vr_glasses.jpg": "/robotics-front/static/media/child_in_vr_glasses.3b9bb8844d5489414a2b.jpg",
     "static/media/marketplacePeople.jpg": "/robotics-front/static/media/marketplacePeople.67a0147eec187c15b489.jpg",
     "static/media/girl_with_playstation.jpg": "/robotics-front/static/media/girl_with_playstation.adef45aaafe76bc95499.jpg",
+    "static/media/MarketplaceIconTablet.jpg": "/robotics-front/static/media/MarketplaceIconTablet.e508c9d8d6617377d3ac.jpg",
+    "static/media/girlWithPlaystationTablet.jpg": "/robotics-front/static/media/girlWithPlaystationTablet.98e4744aaef5f8f6e9ea.jpg",
     "static/media/gamification.svg": "/robotics-front/static/media/gamification.ea949adbf1ea9e20c5da4cfec0bf6350.svg",
     "static/media/game.svg": "/robotics-front/static/media/game.c1320ba14ea7c54ac365a50c20291772.svg",
     "static/media/study.svg": "/robotics-front/static/media/study.32f1c354340cfc17f52d87a39845417e.svg",
@@ -18,11 +20,11 @@
     "static/media/Mail.svg": "/robotics-front/static/media/Mail.8f40ddfc22434a4a8358492580ff21ed.svg",
     "static/media/Telegram.svg": "/robotics-front/static/media/Telegram.6b18438af397f2b89491e01080e95de8.svg",
     "static/media/mobileMenuIcon.svg": "/robotics-front/static/media/mobileMenuIcon.551248a6e69cb630c18934d20e703b5e.svg",
-    "main.52d5997d.css.map": "/robotics-front/static/css/main.52d5997d.css.map",
-    "main.70da1a80.js.map": "/robotics-front/static/js/main.70da1a80.js.map"
+    "main.9dc95669.css.map": "/robotics-front/static/css/main.9dc95669.css.map",
+    "main.3a906d15.js.map": "/robotics-front/static/js/main.3a906d15.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d5997d.css",
-    "static/js/main.70da1a80.js"
+    "static/css/main.9dc95669.css",
+    "static/js/main.3a906d15.js"
   ]
 }
