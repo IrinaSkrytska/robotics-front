@@ -1,12 +1,19 @@
+@media screen and (max-width: 1280px) {
+  .desktop_nav {
+    display: none;
+  }
+}
 @media only screen and (min-width: 1280px) {
-  nav {
+  .desktop_nav {
+    display: block;
     margin-top: 20px;
   }
 }
-@media only screen and (max-width: 787px) {
-  .link {
-    display: none;
-  }
+.visible {
+  display: block;
+}
+.hidden {
+  display: none;
 }
 @media only screen and (min-width: 1280px) {
   .link {

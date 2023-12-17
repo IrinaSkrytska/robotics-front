@@ -3,11 +3,11 @@ import childInGlassesIcon from "../images/child_in_vr_glasses.jpg";
 import chatBotIcon from "../icons/chat-bot.svg";
 import gameIcon from "../icons/game.svg";
 import girlWithPlaystation from "../images/girl_with_playstation.jpg";
+import girlWithPlaystationTablet from "../images/girlWithPlaystationTablet.jpg";
+import MarketplaceIconTablet from "../images/MarketplaceIconTablet.jpg";
 import marketplacePeople from "../images/marketplacePeople.jpg";
 import computerIcon from "../icons/computer.svg";
 import tutorial from "../videos/tutorial.mp4";
-
-// import ReactPlayer from "react-player";
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
             alt="child in vr glasses"
           /> */}
           <video
-            className={css.about_image}
+            className={css.about_image_first}
             controls
             poster={childInGlassesIcon}
             src={tutorial}
@@ -74,6 +74,11 @@ const About = () => {
             src={girlWithPlaystation}
             alt="girl with playstation"
           />
+          <img
+            className={css.about_image_tablet}
+            src={girlWithPlaystationTablet}
+            alt="girl with playstation"
+          />
           <div>
             <div className={css.study_title_thumb}>
               <img src={gameIcon} alt="game-icon" />
@@ -106,6 +111,11 @@ const About = () => {
             src={marketplacePeople}
             alt="people in marketplace"
           />
+          <img
+            className={css.about_image_tablet}
+            src={MarketplaceIconTablet}
+            alt="girl with playstation"
+          />
           <div>
             <div className={css.study_title_thumb}>
               <img src={computerIcon} alt="computer" />
@@ -120,12 +130,12 @@ const About = () => {
               автоматизації будинку - Mecha Marketplace пропонує різноманітний
               вибір продукції за доступними цінами.
             </p>
-
-            <button className={css.about_try_btn}>
-              Спробувати демонстрацію
-            </button>
-
-            <button className={css.about_details_btn}>Детальніше</button>
+            <div className={css.buttons_thumb}>
+              <button className={css.about_try_btn}>
+                Спробувати демонстрацію
+              </button>
+              <button className={css.about_details_btn}>Детальніше</button>
+            </div>
           </div>
         </div>
       </section>

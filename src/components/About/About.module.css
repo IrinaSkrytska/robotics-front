@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
   .about_section {
     margin: 0px 20px;
   }
@@ -33,7 +33,7 @@
   line-height: 60px;
   padding-bottom: 48px;
 }
-@media screen and (max-width: 787px) {
+@media screen and (max-width: 1280px) {
   .about_us_description {
     text-align: start;
     color: #fff;
@@ -73,6 +73,16 @@
     object-fit: cover;
   }
 }
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+  .about_image {
+    display: block;
+    border-radius: 20px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 68px;
+    object-fit: cover;
+  }
+}
 @media screen and (min-width: 1280px) {
   .about_image {
     border-radius: 20px;
@@ -81,7 +91,46 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
+  .about_image_first {
+    display: block;
+    border-radius: 20px;
+
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 68px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .about_image_first {
+    display: block;
+    border-radius: 20px;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 68px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+  .about_image_first {
+    display: block;
+    border-radius: 20px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 68px;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about_image_first {
+    border-radius: 20px;
+
+    margin-right: 36px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 1280px) {
   .about_image_right {
     display: none;
     margin-left: 36px;
@@ -113,9 +162,26 @@
     margin-top: 68px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+  .about_image {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
   .about_image_mobile {
     display: none;
+  }
+}
+.about_image_tablet {
+  display: none;
+}
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+  .about_image_tablet {
+    display: block;
+    border-radius: 20px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 68px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -147,7 +213,7 @@
     margin-bottom: 78px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1280px) {
   .study_title_thumb {
     display: flex;
     align-items: center;
@@ -195,6 +261,9 @@
   font-weight: 500;
   line-height: 32px;
 }
+.buttons_thumb {
+  display: block;
+}
 
 @media screen and (max-width: 767px) {
   .about_try_btn {
@@ -204,6 +273,27 @@
     margin-bottom: 16px;
     padding: 16px 0px;
     width: 90vw;
+    border-radius: 10px;
+    background: linear-gradient(
+      96deg,
+      #6c20d2 -12.07%,
+      #57cbf0 103.99%,
+      #9747ff 104.01%
+    );
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1280px) {
+  .about_try_btn {
+    border: none;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    padding: 16px 0px;
+    width: 50vw;
     border-radius: 10px;
     background: linear-gradient(
       96deg,
@@ -238,6 +328,21 @@
     line-height: 24px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about_details_btn {
+    background: transparent;
+    padding: 16px 48px;
+    position: relative;
+    border: none;
+
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
 @media screen and (max-width: 767px) {
   .about_details_btn {
     background: transparent;
@@ -256,10 +361,11 @@
     line-height: 24p;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 767px) and (max-width: 1280px) {
   .about_details_btn {
     background: transparent;
-    padding: 16px 48px;
+    padding: 16px 0px;
+    width: 30vw;
     position: relative;
     border: none;
 
@@ -267,7 +373,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24p;
+    line-height: 24px;
   }
 }
 .about_details_btn::before {

@@ -1,0 +1,75 @@
+@media screen and (max-width: 1280px) {
+  .mobile_nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+
+.visible {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+@media screen and (max-width: 1280px) {
+  .link {
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    z-index: 122;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .locale_thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .locale {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .header_register_btn {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(
+      96deg,
+      #2da1e1 -12.07%,
+      #024bb1 47.78%,
+      #4720d3 104.01%
+    );
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
