@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/robotics-front/static/css/main.14783c69.css",
-    "main.js": "/robotics-front/static/js/main.510f699f.js",
+    "main.js": "/robotics-front/static/js/main.7c5c387f.js",
     "static/media/tutorial.mp4": "/robotics-front/static/media/tutorial.f244542bb343b6eb5fc0.mp4",
     "static/media/man-in-vr-glasses.png": "/robotics-front/static/media/man-in-vr-glasses.884a642fe772ee9e0bd4.png",
     "static/media/child_in_vr_glasses.jpg": "/robotics-front/static/media/child_in_vr_glasses.3b9bb8844d5489414a2b.jpg",
@@ -21,10 +21,10 @@
     "static/media/Telegram.svg": "/robotics-front/static/media/Telegram.6b18438af397f2b89491e01080e95de8.svg",
     "static/media/mobileMenuIcon.svg": "/robotics-front/static/media/mobileMenuIcon.551248a6e69cb630c18934d20e703b5e.svg",
     "main.14783c69.css.map": "/robotics-front/static/css/main.14783c69.css.map",
-    "main.510f699f.js.map": "/robotics-front/static/js/main.510f699f.js.map"
+    "main.7c5c387f.js.map": "/robotics-front/static/js/main.7c5c387f.js.map"
   },
   "entrypoints": [
     "static/css/main.14783c69.css",
-    "static/js/main.510f699f.js"
+    "static/js/main.7c5c387f.js"
   ]
 }
